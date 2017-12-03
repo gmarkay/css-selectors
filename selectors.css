@@ -1,0 +1,42 @@
+.head {
+  border: 1px solid aquamarine;
+  /* display: flex; */
+
+} 
+header ul li{
+  display:  inline;
+  margin: 0 13%;
+}
+.disabled{
+  color: gray;
+}
+a .disabled{
+  color: purple;
+}
+.active{
+  color: yellow;
+}
+#redDiv{
+  color: red;
+}
+#blueDiv{
+  color:blue;
+}
+#redDiv + h4{
+  background-color: red;
+}
+#blueDiv + h4{
+  background-color: blue;
+}
+.grandparent > h4{
+  border: 1px solid pink;
+  border-radius: 10%;
+}
+.promo{
+  font-weight: bold;
+  color: gold;
+
+}
+footer input{
+font-size: 25px;
+}
